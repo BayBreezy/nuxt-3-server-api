@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn {
+		@apply px-4 py-2.5 text-sm flex items-center justify-center
+         text-white rounded-md font-medium 
+		 bg-gradient-to-tr from-primary to-amber-400 hover:shadow-xl 
+		 hover:shadow-primary/30 hover:scale-[1.03]
+		focus:ring-4 focus:ring-primary/30 transition-all duration-300;
+	}
+	.input {
+		@apply w-full border-gray-300 rounded-md focus:border-primary sm:text-sm 
+		focus:ring-4 focus:ring-primary/30 focus:border-primary/50 p-2.5;
+	}
+	.label {
+		@apply inline-block mb-1 text-sm text-gray-600;
+	}
+}
+
+.eztble {
+	--easy-table-border: none;
+	--easy-table-row-border: none;
+
+	--easy-table-header-font-size: 14px;
+	--easy-table-header-height: 0px;
+	--easy-table-header-font-color: theme("colors.gray.700");
+	--easy-table-header-background-color: theme("colors.gray.50");
+	--easy-table-header-item-padding: 16px;
+
+	/* Row & Body */
+	--easy-table-body-row-height: 0px;
+	--easy-table-body-row-font-size: 14px;
+	--easy-table-body-row-font-color: theme("colors.gray.600");
+	--easy-table-body-row-background-color: #fff;
+	--easy-table-body-row-hover-font-color: theme("colors.gray.700");
+	--easy-table-body-row-hover-background-color: theme("colors.gray.100");
+	--easy-table-body-even-row-font-color: #373737;
+	--easy-table-body-even-row-background-color: #fff;
+	--easy-table-body-item-padding: 18px;
+
+	/* Footer */
+	--easy-table-footer-background-color: #fff;
+	--easy-table-footer-font-color: theme("colors.gray.500");
+	--easy-table-footer-font-size: 12px;
+	--easy-table-footer-padding: 20px 5px;
+	--easy-table-footer-height: 0px;
+	--easy-table-rows-per-page-selector-width: auto;
+	--easy-table-rows-per-page-selector-option-padding: 5px;
+
+	/* Message */
+	--easy-table-message-font-color: #212121; /*Empty message related, when no items in table */
+	--easy-table-message-font-size: 16px; /*Empty message related, when no items in table */
+	--easy-table-message-padding: 30px 0px; /* Empty message related, when no items in table */
+
+	/* Loader */
+	--easy-table-loading-mask-background-color: #fff;
+	--easy-table-loading-mask-opacity: 0.5;
+
+	/* Scrollbar */
+	--easy-table-scrollbar-track-color: #fff;
+	--easy-table-scrollbar-color: #fff;
+	--easy-table-scrollbar-thumb-color: theme("colors.gray.200");
+	--easy-table-scrollbar-corner-color: #fff;
+	--easy-table-buttons-pagination-border: 1px solid #e0e0e0;
+}
+
+.eztble th {
+	@apply font-medium;
+}
+
+/* Toast styles */
+
+.Vue-Toastification__toast {
+	font-family: "Inter" !important;
+	padding: 20px 17px !important;
+}
+.Vue-Toastification__toast-body {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+}
+
+/* Vue select */
+.vue-select {
+	width: 100% !important;
+	border: 1px solid theme("colors.slate.300") !important;
+	@apply !rounded-md hover:!border-slate-400;
+}
+.vue-input input {
+	@apply !p-2 !text-base;
+}
+
+.vue-dropdown {
+	@apply !border-gray-300;
+}
+.vue-dropdown-item.highlighted {
+	@apply !bg-primary-50;
+}
+
+.vue-dropdown-item.selected {
+	@apply !bg-primary !text-white;
+}
+
+.vue-dropdown-item {
+	@apply !p-3;
+}
+.vue-select .vue-tags {
+	height: 50px;
+}
+
+.vue-tag.selected {
+	background-color: theme("colors.primary.50") !important;
+	border-radius: 50px !important;
+	padding: 0 8px !important;
+}
+.vue-tag.selected img {
+	height: 14px !important;
+	width: 14px !important;
+	min-height: 10px !important;
+	min-width: 10px !important;
+	max-height: 100% !important;
+	max-width: 100% !important;
+	margin: 0px 5px !important;
+}
+/* Transitions */
+
+.page-enter-active,
+.page-leave-active {
+	transition: all 0.2s;
+}
+
+.page-enter-from,
+.page-leave-to {
+	opacity: 0;
+	transform: scale(0.99);
+}
