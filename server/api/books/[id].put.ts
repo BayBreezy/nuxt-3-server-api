@@ -3,7 +3,7 @@ import { BookSchema } from "~~/server/validation";
 
 export default defineEventHandler(async (event) => {
 	// Get data form body
-	const body = await useBody(event);
+	const body = await readBody(event);
 	// get id from params
 	const id = event.context.params.id;
 

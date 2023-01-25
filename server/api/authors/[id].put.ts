@@ -3,7 +3,7 @@ import { AuthorSchema } from "~~/server/validation";
 
 export default defineEventHandler(async (event) => {
 	// Get data form body
-	const body = await useBody(event);
+	const body = await readBody(event);
 	//Get id from params
 	const id = event.context.params.id;
 
