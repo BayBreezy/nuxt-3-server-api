@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "nuxt": "^3.11.0"
+    "nuxt": "^3.11.1"
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.0",
@@ -25,8 +25,8 @@
     "@vee-validate/rules": "^4.12.6",
     "dayjs": "^1.11.10",
     "joi": "^17.12.2",
-    "mongoose": "^8.2.2",
-    "nuxt-icon": "^0.6.9",
+    "mongoose": "^8.2.3",
+    "nuxt-icon": "^0.6.10",
     "pinia": "^2.1.7",
     "vee-validate": "^4.12.6",
     "vue-toastification": "next",
