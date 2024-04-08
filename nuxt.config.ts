@@ -19,8 +19,4 @@ export default defineNuxtConfig({
   build: {
     transpile: ["@headlessui/vue", "vue-toastification", "@headlessui/tailwindcss"],
   },
-  // Since nuxt v3.11, the nitro plugin is throwing errors. This is a workaround
-  features: {
-    devLogs: false,
-  },
 });
