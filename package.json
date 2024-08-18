@@ -14,21 +14,21 @@
     "url": "https://behonbaker.com"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.11.4",
-    "nuxt": "^3.11.2"
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "nuxt": "^3.12.4"
   },
   "dependencies": {
-    "@headlessui/tailwindcss": "^0.2.0",
-    "@headlessui/vue": "^1.7.19",
-    "@pinia/nuxt": "^0.5.1",
+    "@headlessui/tailwindcss": "^0.2.1",
+    "@headlessui/vue": "^1.7.22",
+    "@pinia/nuxt": "^0.5.3",
     "@tailwindcss/forms": "^0.5.7",
-    "@vee-validate/rules": "^4.12.6",
-    "dayjs": "^1.11.10",
-    "joi": "^17.12.3",
-    "mongoose": "^8.3.0",
+    "@vee-validate/rules": "^4.13.2",
+    "dayjs": "^1.11.12",
+    "joi": "^17.13.3",
+    "mongoose": "^8.5.3",
     "nuxt-icon": "^0.6.10",
-    "pinia": "^2.1.7",
-    "vee-validate": "^4.12.6",
+    "pinia": "^2.2.2",
+    "vee-validate": "^4.13.2",
     "vue-toastification": "next",
     "vue3-easy-data-table": "^1.5.47"
   },
