@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.1",
-    "@headlessui/vue": "^1.7.22",
+    "@headlessui/vue": "^1.7.23",
     "@pinia/nuxt": "^0.5.4",
     "@tailwindcss/forms": "^0.5.9",
     "@vee-validate/rules": "^4.13.2",
