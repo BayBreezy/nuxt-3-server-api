@@ -15,19 +15,21 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "nuxt": "^3.13.2"
+    "nuxt": "^3.13.2",
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.1",
     "@headlessui/vue": "^1.7.23",
-    "@pinia/nuxt": "^0.5.4",
+    "@pinia/nuxt": "^0.5.5",
     "@tailwindcss/forms": "^0.5.9",
     "@vee-validate/rules": "^4.13.2",
     "dayjs": "^1.11.13",
     "joi": "^17.13.3",
     "mongoose": "^8.7.0",
     "nuxt-icon": "^0.6.10",
-    "pinia": "^2.2.2",
+    "pinia": "^2.2.4",
     "vee-validate": "^4.13.2",
     "vue-toastification": "next",
     "vue3-easy-data-table": "^1.5.47"
