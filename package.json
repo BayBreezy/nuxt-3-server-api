@@ -3,7 +3,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "dev:clean": "rm -rf node_modules && rm -rf package-lock.json && npm i --force && nuxt dev",
+    "dev:clean": "rm -rf node_modules package-lock.json && npm i --force && nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -14,23 +14,23 @@
     "url": "https://behonbaker.com"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.1",
-    "nuxt": "^3.13.2",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.1",
     "@headlessui/vue": "^1.7.23",
-    "@pinia/nuxt": "^0.5.5",
+    "@pinia/nuxt": "^0.7.0",
     "@tailwindcss/forms": "^0.5.9",
-    "@vee-validate/rules": "^4.13.2",
+    "@vee-validate/rules": "^4.14.7",
     "dayjs": "^1.11.13",
     "joi": "^17.13.3",
-    "mongoose": "^8.7.0",
+    "mongoose": "^8.8.2",
     "nuxt-icon": "^0.6.10",
-    "pinia": "^2.2.4",
-    "vee-validate": "^4.13.2",
+    "pinia": "^2.2.6",
+    "vee-validate": "^4.14.7",
     "vue-toastification": "next",
     "vue3-easy-data-table": "^1.5.47"
   },
